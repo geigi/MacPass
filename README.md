@@ -1,5 +1,7 @@
 #MacPass
 
+**Note: You need Xcode 8 (Beta) and the Safari 10 Technology Preview to get this branch runnning.**
+
 There are a lot of iOS KeePass tools around but a distinct lack of a good OS X version.
 KeePass can be used via Mono on OS X but lacks vital functionality and feels sluggish.
 
@@ -34,6 +36,12 @@ There have been some changes in the submodule urls. Please consider re-syncing a
 	git submodule sync
 	git submodule init
 
+##Enable the Safari Extension
+* Enable the "Develop menu" in Safari->Preferences->Advanced. 
+* Go to the Develop menu, and "Allow unsigned extensions" right at the bottom.
+* Now you can enable the MacPass Safari Extension in Safari->Preferences->Extensions
+**Note: You have to to the last step everytime you relaunch Safari!**
+
 ##Known Major Issues
 
 * Binary releases (0.5.x):
@@ -47,7 +55,7 @@ Another place to look is the IRC channel [#macpass](irc://irc.freenode.org/macpa
 
 ##System Requirement
 
-The minimum OS X version required for MacPass is currently 10.8 Mountain Lion.
+The minimum OS X version required for MacPass is currently 10.11 El Capitan with Safari 10.
 
 ##Status
 
