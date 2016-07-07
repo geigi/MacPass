@@ -30,11 +30,20 @@
 		<string>com.apple.Safari.extension</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
+		<key>SFSafariContextMenu</key>
+		<array>
+			<dict>
+				<key>Text</key>
+				<string>Get Credentials from MacPass</string>
+				<key>Command</key>
+				<string>RequestCredentials</string>
+			</dict>
+		</array>
 		<key>SFSafariContentScript</key>
 		<array>
 			<dict>
 				<key>Script</key>
-				<string>script.js</string>
+				<string>MacPass.js</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>

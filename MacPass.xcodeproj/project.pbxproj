@@ -254,7 +254,7 @@
 		8BBC30781D2E505C00D7CA9A /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC30771D2E505C00D7CA9A /* SafariExtensionHandler.swift */; };
 		8BBC307A1D2E505C00D7CA9A /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC30791D2E505C00D7CA9A /* SafariExtensionViewController.swift */; };
 		8BBC307D1D2E505C00D7CA9A /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC307B1D2E505C00D7CA9A /* SafariExtensionViewController.xib */; };
-		8BBC30801D2E505C00D7CA9A /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC307F1D2E505C00D7CA9A /* script.js */; };
+		8BBC30801D2E505C00D7CA9A /* MacPass.js in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC307F1D2E505C00D7CA9A /* MacPass.js */; };
 		8BBC30821D2E505C00D7CA9A /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC30811D2E505C00D7CA9A /* ToolbarItemIcon.pdf */; };
 		8BBC30851D2E505C00D7CA9A /* MacPass Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BBC30721D2E505C00D7CA9A /* MacPass Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -758,7 +758,7 @@
 		8BBC30791D2E505C00D7CA9A /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		8BBC307C1D2E505C00D7CA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		8BBC307E1D2E505C00D7CA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BBC307F1D2E505C00D7CA9A /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		8BBC307F1D2E505C00D7CA9A /* MacPass.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MacPass.js; sourceTree = "<group>"; };
 		8BBC30811D2E505C00D7CA9A /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		BD6C365619484CF40089EB37 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/DatabaseSettingsWindow.strings; sourceTree = "<group>"; };
 		BD6C365719484CF40089EB37 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/PasswordEditWindow.strings; sourceTree = "<group>"; };
@@ -1480,7 +1480,7 @@
 				8BBC30791D2E505C00D7CA9A /* SafariExtensionViewController.swift */,
 				8BBC307B1D2E505C00D7CA9A /* SafariExtensionViewController.xib */,
 				8BBC307E1D2E505C00D7CA9A /* Info.plist */,
-				8BBC307F1D2E505C00D7CA9A /* script.js */,
+				8BBC307F1D2E505C00D7CA9A /* MacPass.js */,
 				8BBC30811D2E505C00D7CA9A /* ToolbarItemIcon.pdf */,
 				8BBC30751D2E505C00D7CA9A /* Supporting Files */,
 			);
@@ -1738,7 +1738,7 @@
 				8B891F4D1D2E7EEB00D6AF8E /* icon_512x512@2x.png in Resources */,
 				8BBC30821D2E505C00D7CA9A /* ToolbarItemIcon.pdf in Resources */,
 				8BBC307D1D2E505C00D7CA9A /* SafariExtensionViewController.xib in Resources */,
-				8BBC30801D2E505C00D7CA9A /* script.js in Resources */,
+				8BBC30801D2E505C00D7CA9A /* MacPass.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
