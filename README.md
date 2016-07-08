@@ -1,6 +1,6 @@
 #MacPass
 
-**Note: You need Xcode 8 (Beta) and the Safari 10 Technology Preview to get this branch running.**
+**Note: You need Xcode 8 (Beta) and the Safari 10 beta to get this branch running.**
 
 There are a lot of iOS KeePass tools around but a distinct lack of a good OS X version.
 KeePass can be used via Mono on OS X but lacks vital functionality and feels sluggish.
